@@ -1,4 +1,15 @@
-define(function(require, exports, module) {
+;(function (name, definition) {
+  // this is considered "safe":
+  var hasDefine = typeof define === 'function';
+
+  if (hasDefine) {
+    // AMD Module or CMD Module
+    define(definition);
+  } else {
+    // Assign to common namespaces or simply the global object (window)
+    this[name] = definition();
+  }
+})('Debug', function () {
   // Debug:
   //   print:
   //     Debug(name, [withTrace])(obj, [obj, ...])
@@ -147,6 +158,6 @@ define(function(require, exports, module) {
 
   Debug('Debug', true)('^ ^');
 
-  module.exports = window.Debug = Debug;
+  return Debug;
 
 });
