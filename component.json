@@ -7,7 +7,7 @@
     "debug"
   ],
   "scripts": [
-    "src/debug.js",
+    "src/debug.js"
   ],
   "main": "src/debug.js",
   "dependencies": {
