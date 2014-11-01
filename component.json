@@ -1,0 +1,16 @@
+{
+  "name": "debug",
+  "repo": "maizuo-fe/debug",
+  "description": "debug util",
+  "version": "0.1.0",
+  "keywords": [
+    "debug"
+  ],
+  "scripts": [
+    "src/debug.js",
+  ],
+  "main": "src/debug.js",
+  "dependencies": {
+  },
+  "license": "MIT"
+}

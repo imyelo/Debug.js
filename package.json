@@ -1,0 +1,9 @@
+{
+  "name": "debug.js",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "sinon": "^1.10.3"
+  }
+}
