@@ -28,5 +28,10 @@ debug('foo', 'bar');
   Debug.only(name, [name, ...])
 ```
 
+### isEnabled
+```
+  Debug.isEnabled()
+```
+
 ### License
 MIT

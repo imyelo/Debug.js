@@ -2,6 +2,19 @@
   "name": "debug",
   "version": "0.1.0",
   "private": true,
+  "main": "./src/debug.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maizuo-fe/debug.git"
+  },
+  "keywords": [
+    "debug"
+  ],
+  "author": "imyelo",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^1.9.1",
     "duo": "^0.8.8",
