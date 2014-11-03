@@ -229,6 +229,9 @@ var Debug = (function () {
   Debug.reload = function () {
     init();
   };
+  Debug.isEnabled = function () {
+    return !!setting.enabled;
+  };
 
   init();
 
